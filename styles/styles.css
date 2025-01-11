@@ -24,7 +24,7 @@
     font-size: 16px;
     font-weight: regular;
     line-height: 24px;
-    color:rgba(14, 14, 14, 0.7); 
+    color:#0E0E0E; 
 }
 
 .section-title{
@@ -77,7 +77,7 @@ nav a{
 }
 
 .hero  p{
-    color: rgba(14, 14, 14, 0.5);
+    color: #0E0E0E;
     font-size: 24px;
     font-weight: medium;
     line-height: auto;
@@ -383,4 +383,43 @@ nav a{
 
 .donate button:hover{
     background-color: grey;
+}
+.subscribe{
+    margin: 0px 160px 80px 160px;
+    text-align: center;
+    background-color: #C6E4D6;
+    padding: 80px 100px;
+    border-radius: 24px;
+}
+
+.subscribe h2{
+    margin-bottom: 16px;
+}
+
+.subscribe p{
+    margin-bottom: 24px;
+}
+
+.subscribe button{
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    background-color: #006A50;
+    border: none;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: auto;
+    cursor: pointer;
+}
+
+.subscribe button:hover{
+    background-color: grey;
+}
+
+.subscribe input{
+    margin-bottom: 24px;
+    padding: 18px 40px;
+    border: none;
+    width: 50%;
+    border-radius: 8px 0px 0px 8px;
 }
